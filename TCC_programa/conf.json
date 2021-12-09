@@ -1,0 +1,22 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 27017,
+    "search_database_name": "search_database",
+    "database_name": "TCC",
+    "collection_name": "2020"
+  },
+  "queries": {
+    "lang": "lang:en",
+    "is_retweet": "-is:retweet",
+    "max_results": "max_results=500",
+    "start_time": "start_time=2020-06-01T00:00:00Z",
+    "end_time": "end_time=2020-06-15T23:59:59Z"
+  },
+  "fields": {
+    "tweet_fields": true,
+    "tweet_fields_list": "attachments,author_id,context_annotations,conversation_id,created_at,entities,geo,id,in_reply_to_user_id,lang,public_metrics,possibly_sensitive,referenced_tweets,reply_settings,source,text,withheld",
+    "user_fields": true,
+    "user_fields_list": "created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld"
+  }
+}
